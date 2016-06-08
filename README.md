@@ -1,5 +1,5 @@
 # Face-Verification
-**C++ based face verification using OpenCV and LBP**
+**C++ Based Face Verification Using OpenCV and LBP**
 
 This is a project that performs face verification based on OpenCV. Few information before you use:
 
