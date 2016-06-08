@@ -19,5 +19,6 @@ This is a project that performs face verification based on OpenCV. Few informati
 
  
 Best wishes, 
+
 Ekberjan 
 
