@@ -1,0 +1,87 @@
+﻿Build started 8.6.2016 11:02:45.
+     1>Project "D:\Workspace\C++\FaceVerification\FaceVerification\FaceVerification.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\OpenCV-2.4.10\build\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D "WIN32" /D NDEBUG /D _CONSOLE /D "_LIB" /D "_CRT_SECURE_NO_WARNINGS" /D "_UNICODE" /D "UNICODE" /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\FaceVerification.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FaceVerification.cpp main.cpp
+         FaceVerification.cpp
+     1>FaceVerification.cpp(178): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(57): warning C4251: 'FaceVerifier::frame' : class 'cv::Mat' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 C:\OpenCV-2.4.10\build\include\opencv2/core/core.hpp(1690) : see declaration of 'cv::Mat'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(59): warning C4251: 'FaceVerifier::minSize' : class 'cv::Size_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(60): warning C4251: 'FaceVerifier::maxSize' : class 'cv::Size_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(62): warning C4251: 'FaceVerifier::cameraId' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(64): warning C4251: 'FaceVerifier::currentPath' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(65): warning C4251: 'FaceVerifier::window_name' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(66): warning C4251: 'FaceVerifier::faceCascadeFilename' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(67): warning C4251: 'FaceVerifier::eyeCascadeFilename1' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(68): warning C4251: 'FaceVerifier::eyeCascadeFilename2' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(69): warning C4251: 'FaceVerifier::negativeImageList' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(70): warning C4251: 'FaceVerifier::negativeImageName' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(71): warning C4251: 'FaceVerifier::faceAreas' : class 'std::vector<cv::Rect,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 with
+                 [
+                     _Ty=cv::Rect
+                 ]
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(72): warning C4251: 'FaceVerifier::faces' : class 'std::vector<cv::Mat,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 with
+                 [
+                     _Ty=cv::Mat
+                 ]
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(76): warning C4251: 'FaceVerifier::face' : class 'cv::Mat' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 C:\OpenCV-2.4.10\build\include\opencv2/core/core.hpp(1690) : see declaration of 'cv::Mat'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(77): warning C4251: 'FaceVerifier::negativeFrame' : class 'cv::Mat' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 C:\OpenCV-2.4.10\build\include\opencv2/core/core.hpp(1690) : see declaration of 'cv::Mat'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(79): warning C4251: 'FaceVerifier::preprocessor' : class 'Preprocessor' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 d:\workspace\c++\faceverification\faceverification\preprocessor.h(9) : see declaration of 'Preprocessor'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(80): warning C4251: 'FaceVerifier::eyeAlignmentPreprocess' : class 'preprocessFace' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 d:\workspace\c++\faceverification\faceverification\preprocessFace.h(29) : see declaration of 'preprocessFace'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(81): warning C4251: 'FaceVerifier::lbpFeatureExtractor' : class 'LBPFeatureExtractor' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 d:\workspace\c++\faceverification\faceverification\lbpfeatureextractor.h(8) : see declaration of 'LBPFeatureExtractor'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(83): warning C4251: 'FaceVerifier::classifier' : class 'Classifier' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 d:\workspace\c++\faceverification\faceverification\classifier.h(15) : see declaration of 'Classifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(84): warning C4251: 'FaceVerifier::faceCascade' : class 'cv::CascadeClassifier' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 C:\OpenCV-2.4.10\build\include\opencv2/objdetect/objdetect.hpp(386) : see declaration of 'cv::CascadeClassifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(85): warning C4251: 'FaceVerifier::eyeCascade1' : class 'cv::CascadeClassifier' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 C:\OpenCV-2.4.10\build\include\opencv2/objdetect/objdetect.hpp(386) : see declaration of 'cv::CascadeClassifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(86): warning C4251: 'FaceVerifier::eyeCascade2' : class 'cv::CascadeClassifier' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 C:\OpenCV-2.4.10\build\include\opencv2/objdetect/objdetect.hpp(386) : see declaration of 'cv::CascadeClassifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(91): warning C4251: 'FaceVerifier::faceRect' : class 'cv::Rect_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(92): warning C4251: 'FaceVerifier::searchedLeftEye' : class 'cv::Rect_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(92): warning C4251: 'FaceVerifier::searchedRightEye' : class 'cv::Rect_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(93): warning C4251: 'FaceVerifier::leftEye' : class 'cv::Point_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(93): warning C4251: 'FaceVerifier::rightEye' : class 'cv::Point_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(94): warning C4251: 'FaceVerifier::processedLeftEye' : class 'cv::Point_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(94): warning C4251: 'FaceVerifier::processedRightEye' : class 'cv::Point_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(95): warning C4251: 'FaceVerifier::searchedLeftNegativeEye' : class 'cv::Rect_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(95): warning C4251: 'FaceVerifier::searchedRightNegativeEye' : class 'cv::Rect_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(96): warning C4251: 'FaceVerifier::leftNegativeEye' : class 'cv::Point_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(96): warning C4251: 'FaceVerifier::rightNegativeEye' : class 'cv::Point_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(97): warning C4251: 'FaceVerifier::preprocessedFace' : class 'cv::Mat' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 C:\OpenCV-2.4.10\build\include\opencv2/core/core.hpp(1690) : see declaration of 'cv::Mat'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(98): warning C4251: 'FaceVerifier::preprocessedNegativeFace' : class 'cv::Mat' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+                 C:\OpenCV-2.4.10\build\include\opencv2/core/core.hpp(1690) : see declaration of 'cv::Mat'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(99): warning C4251: 'FaceVerifier::eyeRegion' : class 'cv::Rect_<int>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(100): warning C4251: 'FaceVerifier::eyeColor' : class 'cv::Scalar_<double>' needs to have dll-interface to be used by clients of class 'FaceVerifier'
+     1>d:\workspace\c++\faceverification\faceverification\faceverifier.h(105): warning C4091: 'static ' : ignored on left of 'FaceVerifier' when no variable is declared
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspace\C++\FaceVerification\Release\FaceVerification.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\OpenCV-2.4.10\build\x86\vc11\lib" opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Workspace\C++\FaceVerification\Release\FaceVerification.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Workspace\C++\FaceVerification\Release\FaceVerification.lib" /MACHINE:X86 /SAFESEH Release\classifier.obj
+         Release\detectObject.obj
+         Release\FaceVerification.obj
+         Release\faceverifier.obj
+         "Release\ImageUtils_0.7.obj"
+         Release\lbpfeatureextractor.obj
+         Release\main.obj
+         Release\preprocessFace.obj
+         Release\preprocessor.obj
+         Release\stdafx.obj
+            Creating library D:\Workspace\C++\FaceVerification\Release\FaceVerification.lib and object D:\Workspace\C++\FaceVerification\Release\FaceVerification.exp
+         Generating code
+     1>d:\workspace\c++\faceverification\faceverification\lbpfeatureextractor.cpp(310): warning C4715: 'LBPFeatureExtractor::histogram' : not all control paths return a value
+     1>d:\workspace\c++\faceverification\faceverification\preprocessface.cpp(406): warning C4715: 'preprocessFace::writeResults' : not all control paths return a value
+         Finished generating code
+         FaceVerification.vcxproj -> D:\Workspace\C++\FaceVerification\Release\FaceVerification.exe
+     1>Done Building Project "D:\Workspace\C++\FaceVerification\FaceVerification\FaceVerification.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.01

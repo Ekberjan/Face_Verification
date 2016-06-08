@@ -1,0 +1,1 @@
+dir /s *.jpg /b > FileList.txt
