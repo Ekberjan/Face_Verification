@@ -1,4 +1,4 @@
-# Face-Verification Using Local Binary Patterns (LBP)
+# Face Verification Using Local Binary Patterns (LBP)
 **C++ Based Face Verification Using OpenCV and LBP**
 
 This is a project that performs face verification based on OpenCV. Few information before you use:
