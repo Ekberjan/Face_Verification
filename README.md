@@ -15,7 +15,7 @@ This is a project that performs face verification based on OpenCV. Few informati
 
 6. The final result is a prediction score between 0 and 1, in which 1 means the test image is totally the same as the positive training image, while 0 means exactly the reverse. 
 
-7. In the relevant header file, you may see codes for 'DLL EXPORT'. This is for ease to let you embed your code into a dll file if necessary. You may do a search on the internet to better understand how to build dll files from source code as well. 
+7. In the relevant header file, you may see codes for 'DLL EXPORT'. This is for ease to let you embed your code into a dll file if necessary. Note that you need to uncommnet those lines such as 'System::String^' in order to make a dll file, since 'std::string' is not acceptable in such cases. You may do a search on the internet to better understand how to build dll files from source code as well. 
 
  
 Best wishes, 
