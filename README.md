@@ -7,7 +7,7 @@ This is a project that performs face verification based on OpenCV. Few informati
 
 2. The classification is performed using Support Vector Machines (SVM). 
 
-3. You need to provide relevant negative images for training SVM. Currently, the negative image count is set as 300, you can change it in the code according to your own case. You need to provide negative image list txt file. Please refer to `negativeImageList` member in the `faceverifier.cpp` file for more information. For generating negative image list, you can copy your negative images to the folder *Release/Negative_Images/*, then double click *getFileList.bat*, it will generate a txt file containing your negative image list. Provide this txt file as your `negativeImageList` in `faceverifier.cpp`.
+3. You need to provide relevant negative images for training SVM. Currently, the negative image count is set as 300, you can change it in the code according to your own case. You need to provide negative image list txt file. Please refer to `negativeImageList` member in the `faceverifier.cpp` file for more information. For generating negative image list, you can copy your negative images to the folder `Release/Negative_Images/`, then double click *getFileList.bat*, it will generate a txt file containing your negative image list. Provide this txt file as your `negativeImageList` in `faceverifier.cpp`.
 
 4. You need to provide relevant positive images for training SVM. Currently, the positive images are those captured from the embedded camera from the host computer, and minimum positive sample size (image count) is set as 200. You can change the source of your positive images (such as from your disk folder instead of capturing live from camera), as well as sample size in the code. 
 
